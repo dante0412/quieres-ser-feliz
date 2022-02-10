@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #556270;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+overflow: hidden;
+}
+
+.contenedor{
+    margin: auto;
+    /* width: 900px; */
+    /* margin-top: 300px; */
+    text-align: center;
+}
+
+.titulo{
+    margin-top: 300px;
+    display: inline-block;
+}
+
+
+.opciones p{
+    background: black;
+    display: initial;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+p.p1{
+    position: absolute;
+    top: 400px;
+    left: 580px;
+    width: 100px;
+}
+p.p1:hover{
+    background: gray;
+    cursor: pointer;
+}
+
+p.p2{
+    position: absolute;
+    top: 400px;
+    left: 830px;
+    width: 100px;
+}
+p.p2:hover{
+    background: gray;
+    cursor: pointer;
+}
+#si{
+    background: #515050;
+    left: 420px;
+    position: absolute;
+    top: 122px;
+    width: 550px;
+    color: #ffffff;
+    padding: 50px;
+    display: none;
+}
+
+.img {
+    margin: -200px 30px;
+    width: 30%;
+    /* border-radius:  50%; */
+    /* height: 65px; */
+    /* background: #448ed3 ; */
+    /* position: relative; */
+    /* border:2px solid #fff; */
+    bottom: 50px;
+    overflow:hidden;
+}
+
+.img .img1 {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.img .img2 {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.imgs {
+    margin: -400px 1100px;
+    width: 30%;
+    /* border-radius:  50%; */
+    /* height: 65px; */
+    /* background: #448ed3 ; */
+    /* position: relative; */
+    /* border:2px solid #fff; */
+    bottom: 50px;
+    overflow:hidden;
+}
+
+.imgs .img2 {
+    width: 80%;
+    height: auto;
+    display: block;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quieres ser feliz conmigo</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/quieres.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.p1').hover(function(){
+                arriba = Math.random()*(400-1) +1;
+                abajo = Math.random() * (609-1) +1;
+              $(this).css('top', arriba);
+              $(this).css('left', abajo);
+            });
+        });
+    function dijoSi(){
+        document.getElementById('si').style.display = 'block';
+    }
+    </script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>¿Quieres ser feliz  conmigo?</h1>
+        </div>
+        <div class="opciones">
+            <p class="p1">No</p>
+            <p onclick="dijoSi()" class="p2">Si</p>
+            <div id="si">
+                <h2>Entonces porque no me estas abrazando T.T ... porque sabes yo te amo mucho como no te puedes imaginar  </h2>
+            </div>
+        </div>
+        <div class="img">
+            <img class="img1" src="img/IMG_20210515_184846.jpg" alt="">
+        </div>
+        <div class="imgs">
+            <img class="img2" src="img/IMG_20210828_202113550.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
